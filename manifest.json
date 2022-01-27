@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "LibreTranslate",
+  "version": "1.0",
+
+  "description": "Translates page using LibreTranslate.",
+
+  "icons": {
+    "48": "icons/lt-48.png"
+  },
+
+  "permissions": ["contextMenus", "menus", "activeTab"],
+
+  "background": {
+    "scripts": ["translate.js"]
+  }
+}
